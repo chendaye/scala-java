@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ScalaJavaApplication {
 
     public static void main(String[] args) {
-        System.out.println("fuck");
+        System.out.println("fuck ScalaJavaApplication");
         SpringApplication.run(ScalaJavaApplication.class, args);
     }
 

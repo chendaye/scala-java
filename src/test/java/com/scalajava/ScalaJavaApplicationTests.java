@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootTest
-@ComponentScan(basePackages = {"com.scalajava"})
+@ComponentScan(basePackages = {"com.scalajava.service"})
 class ScalaJavaApplicationTests {
 
     @Test
