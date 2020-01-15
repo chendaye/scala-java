@@ -10,11 +10,11 @@
 
     <name>scala-java</name>
     <description>Demo project for Spring Boot</description>
-
+    <!--若父项目中的依赖，会被子项目引用，所以一般在父项目中定义子项目中共有的依赖. 用于确定父项目的坐标位置    -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.12.RELEASE</version>
+        <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -57,6 +57,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -101,9 +102,6 @@
                     </jvmArgs>
                 </configuration>
             </plugin>
-
-
-
         </plugins>
     </build>
 
