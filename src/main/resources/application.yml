@@ -11,5 +11,7 @@ spring:
     url: jdbc:mysql://master:3306/scalajava
   jpa:
     hibernate:
+      # 表示如果数据库中存在持久化类对应的表就不创建，不存在就创建对应的表
       ddl-auto: update
     database: mysql
+    show-sql: true
